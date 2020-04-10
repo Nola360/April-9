@@ -7,6 +7,12 @@
   font-family: 'Montserrat', 'sans-serif';
 }
 
+body {
+  /* background-image: url('img.jpg');
+  background-position: center;
+  background-repeat: none; */
+}
+
 
 header {
   text-align: center;
@@ -14,9 +20,7 @@ header {
 }
 
 
-img {
-  position: absolute;
-}
+
 .subscribe_section {
   position: absolute;
   top: 50%;
@@ -65,7 +69,10 @@ img {
   transition: visibility 0s, opacity 0.5s;
 }
 
-
+.modal_bg.active {
+  opacity: 1;
+  visibility: visible;
+}
 
 .modal {
   position: relative;
@@ -81,10 +88,7 @@ img {
   box-shadow: rgba(57,58,58) 1px 1px 5px;
 }
 
-.modal.active {
-  opacity: 1;
-  visibility: visible;
-}
+
 
 label {
   /* padding-left: 20px; */
